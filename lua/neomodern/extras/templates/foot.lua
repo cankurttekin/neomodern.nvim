@@ -21,10 +21,8 @@ function M.generate(colors, info)
 # upstream: ${upstream}
 # author: Casey Miller
 
-[cursor]
-color=${fg} ${visual}
-
 [colors]
+cursor=${fg} ${visual}
 foreground=${fg}
 background=${bg}
 # alternate, darker background=${alt_bg}
